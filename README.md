@@ -153,7 +153,7 @@ Update the status column as items move to *In progress* or *Done*.
 
 ## Contact
 
-- Portfolio: [toriqqhabilfadhilaa.github.io](https://toriqqhabilfadhilaa.github.io/)
+- Portfolio: [hitoriqq.github.io](https://hitoriqq.github.io/Portofolio/)
 - Source: [github.com/HiToriqq/Portofolio](https://github.com/HiToriqq/Portofolio)
 - LinkedIn: [toriqhabilfadhila21](https://www.linkedin.com/in/toriqhabilfadhila21/)
 

@@ -47,7 +47,7 @@ export const PROJECTS = projectsJson.map((p) => ({
 }));
 
 export const REEL = {
-  src: `${import.meta.env.BASE_URL}media/projects-reel.webm`,
+  src: `${import.meta.env.BASE_URL}media/projects-reel.mp4`,
   poster: `${import.meta.env.BASE_URL}media/projects-reel-poster.webp`,
   size: {
     width: 1280,

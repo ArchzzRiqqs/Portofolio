@@ -1,0 +1,71 @@
+[
+  {
+    "id": "01",
+    "slug": "kelanacoffe",
+    "title": "KelanaCoffe",
+    "kind": "SaaS · Point of Sale",
+    "desc": "Sistem POS SaaS untuk membantu warung kopi mengelola transaksi, produk, inventory, dan laporan operasional dalam satu platform terintegrasi.",
+    "tags": [
+      "Laravel",
+      "Blade",
+      "Tailwind CSS",
+      "MySQL"
+    ],
+    "link": "https://github.com/ArchzzRiqqs/SaaS-KelanaCoffe"
+  },
+  {
+    "id": "02",
+    "slug": "lifeos",
+    "title": "LifeOS",
+    "kind": "Produktivitas personal",
+    "desc": "Personal Productivity & Life Management Platform untuk membantu mengelola tugas, goals, habits, jadwal, dan perkembangan diri dalam satu platform terintegrasi.",
+    "tags": [
+      "React",
+      "Node.js",
+      "MySQL"
+    ],
+    "link": "https://github.com/ArchzzRiqqs/LifeOS"
+  },
+  {
+    "id": "03",
+    "slug": "akademia",
+    "title": "Akademia",
+    "kind": "LMS · Ujian online",
+    "desc": "LMS berbasis web untuk mengelola pembelajaran, ujian online, dan sistem proctoring untuk membantu mengurangi kecurangan saat ujian.",
+    "tags": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma"
+    ],
+    "link": "https://github.com/ArchzzRiqqs/LMS-Akademia"
+  },
+  {
+    "id": "04",
+    "slug": "kaswarga",
+    "title": "KasWarga",
+    "kind": "Web App · Manajemen iuran RT/RW",
+    "desc": "Aplikasi web responsif untuk mengelola data rumah dan warga, jenis iuran, pencatatan pembayaran, serta pemantauan status pembayaran iuran RT/RW.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Database Design",
+      "Responsive UI"
+    ],
+    "link": "https://github.com/ArchzzRiqqs/KasWarga"
+  },
+  {
+    "id": "05",
+    "slug": "rangkum-in",
+    "title": "Rangkum.in",
+    "kind": "Rencana implementasi · AI Knowledge Platform",
+    "desc": "Rencana implementasi platform untuk membantu pengguna merangkum informasi, mengorganisasi pengetahuan, dan mengubah insight menjadi rencana tindakan yang terstruktur.",
+    "tags": [
+      "Product Planning",
+      "System Analysis",
+      "Knowledge Management",
+      "AI Integration"
+    ],
+    "link": "https://github.com/ArchzzRiqqs/Rangkum.in"
+  }
+]

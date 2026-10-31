@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') d.dataset.theme = t;
+        else d.dataset.theme = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      } catch (e) { d.dataset.theme = 'dark'; }
+    })();
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toriq Habil Fadhila | Software Engineer Portofolio</title>
+  <meta name="description" content="Portofolio of Toriq Habil Fadhila, a Software Engineer and Business Information Systems student focused on backend, system design, and databases." />
+  <meta name="author" content="Toriq Habil Fadhila" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="theme-color" content="#12141a" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="google-site-verification" content="JMqyTUhwEOF86NOiPvQFrJWAdHESnWJPJS1EFq7a7d8" />
+  <link rel="canonical" href="https://toriqqfme.my.id/" />
+
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://toriqqfme.my.id/" />
+  <meta property="og:title" content="Toriq Habil Fadhila | Software Engineer Portofolio" />
+  <meta property="og:description" content="Backend, system design, and databases. Projects and experience of Toriq Habil Fadhila." />
+  <meta property="og:site_name" content="Toriq Habil Fadhila" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:image" content="https://toriqqfme.my.id/Logo.png" />
+
+  <script type="application/ld+json">
+  { 
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://toriqqfme.my.id/#website",
+        "url": "https://toriqqfme.my.id/",
+        "name": "Toriq Habil Fadhila",
+        "alternateName": ["Toriqq", "toriqq.fme", "Toriq Habil Fadhila Portofolio"],
+        "inLanguage": "id",
+        "publisher": { "@id": "https://toriqqfme.my.id/#person" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://toriqqfme.my.id/#profilepage",
+        "url": "https://toriqqfme.my.id/",
+        "name": "Toriq Habil Fadhila | Software Engineer Portofolio",
+        "isPartOf": { "@id": "https://toriqqfme.my.id/#website" },
+        "mainEntity": { "@id": "https://toriqqfme.my.id/#person" },
+        "dateModified": "__BUILD_DATE__"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://toriqqfme.my.id/#person",
+        "name": "Toriq Habil Fadhila",
+        "alternateName": ["Toriqq", "toriqq.fme"],
+        "url": "https://toriqqfme.my.id/",
+        "image": "https://toriqqfme.my.id/Logo.png",
+        "jobTitle": "Software Engineer",
+        "description": "Software Engineer and Business Information Systems student focused on backend, system design, and databases.",
+        "address": { "@type": "PostalAddress", "addressLocality": "Malang", "addressCountry": "ID" },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Politeknik Negeri Malang" }
+        ],
+        "knowsAbout": ["Backend Development", "System Design", "Database Design", "Laravel", "React", "Node.js"],
+        "sameAs": [
+          "https://www.linkedin.com/in/toriqhabilfadhila21/",
+          "https://github.com/ArchzzRiqqs/"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

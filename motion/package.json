@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-motion",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.js",
+    "render": "remotion render src/index.js ProjectsReel out/reel.webm --codec=vp9 --crf=36",
+    "poster": "remotion still src/index.js ProjectsReel out/reel-poster.png --frame=60"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "remotion": "4.0.539"
+  }
+}

@@ -13,7 +13,7 @@ export const PROFILE = {
   tagline: "Membangun sistem dengan fondasi yang kuat, bukan sekadar fitur yang berjalan.",
   location: "Malang, Indonesia",
   email: "toriqqhabilfadhila21@gmail.com",
-  github: "https://github.com/ArchzzRiqqs",
+  github: "https://github.com/HiToriqq",
   linkedin: "https://www.linkedin.com/in/toriqhabilfadhila21/",
   photo: profilePhoto,
   photoSize: { width: 720, height: 981 },

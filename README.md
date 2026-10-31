@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" width="100%" alt="Toriq Habil Fadhila - Personal Portfolio" />
+<img src="docs/banner.svg" width="100%" alt="Toriq Habil Fadhila - Personal Portofolio" />
 
 <br />
 
@@ -17,15 +17,9 @@
 
 </div>
 
-<!-- Add a real screenshot, then uncomment:
-<p align="center">
-  <img src="docs/preview.png" width="90%" alt="Portfolio preview" />
-</p>
--->
-
 ## Overview
 
-A personal portfolio built with React and Vite. It combines software development with a business-systems perspective: each project is presented as a problem, a solution, and the value it was meant to deliver, not only a list of technologies.
+A personal portofolio built with React and Vite. It combines software development with a business-systems perspective: each project is presented as a problem, a solution, and the value it was meant to deliver, not only a list of technologies.
 
 Focus areas: system analysis and design, business process modeling, database design and SQL, web application development, and business analytics.
 
@@ -153,12 +147,12 @@ Update the status column as items move to *In progress* or *Done*.
 
 ## Contact
 
-- Portfolio: [hitoriqq.github.io](https://hitoriqq.github.io/Portofolio/)
+- Portofolio: [hitoriqq.github.io](https://hitoriqq.github.io/Portofolio/)
 - Source: [github.com/HiToriqq/Portofolio](https://github.com/HiToriqq/Portofolio)
 - LinkedIn: [toriqhabilfadhila21](https://www.linkedin.com/in/toriqhabilfadhila21/)
 
 ## License
 
-Personal portfolio, shared for educational purposes. Feel free to take inspiration from it, but please do not copy the content or design as your own.
+Personal portofolio, shared for educational purposes. Feel free to take inspiration from it, but please do not copy the content or design as your own.
 
 <p align="center">Built with React and Vite by <strong>Toriq</strong></p>

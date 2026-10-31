@@ -8,5 +8,6 @@ const injectBuildDate = () => ({
 })
 
 export default defineConfig({
+  base: '/Portofolio/',
   plugins: [react(), injectBuildDate()],
 })

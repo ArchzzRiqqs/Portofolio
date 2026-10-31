@@ -47,9 +47,9 @@ export const PROJECTS = projectsJson.map((p) => ({
 }));
 
 export const REEL = {
-  src: "/media/projects-reel.webm",
-  poster: "/media/projects-reel-poster.webp",
-  size: { width: 960, height: 540 },
+  src: `${import.meta.env.BASE_URL}media/projects-reel.webm`,
+  poster: `${import.meta.env.BASE_URL}media/projects-reel-poster.webp`,
+  size: { width: 1280, height: 720 },
 };
 
 export const EXPERIENCE = [

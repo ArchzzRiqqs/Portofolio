@@ -10,7 +10,7 @@
 [![ESLint](https://img.shields.io/badge/ESLint-configured-24283b?style=flat-square&logo=eslint&logoColor=4B32C3)](https://eslint.org/)
 [![Live](https://img.shields.io/badge/Live-GitHub%20Pages-7aa2f7?style=flat-square&logo=github&logoColor=1a1b27)](https://toriqqhabilfadhilaa.github.io/)
 
-[**Live site**](https://toriqqhabilfadhilaa.github.io/) ·
+[**Live site**](https://hitoriqq.github.io/Portofolio/) ·
 [**LinkedIn**](https://www.linkedin.com/in/toriqhabilfadhila21/) ·
 [**Getting started**](#getting-started) ·
 [**Architecture**](#architecture)
@@ -114,14 +114,6 @@ In-app animation is plain CSS. `tokens.css` defines one easing curve, one travel
 
 Remotion only renders the project reels. Its output goes to `public/media/`, and nothing from it is bundled into the app.
 
-<!--
-## Featured Projects
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| TODO | TODO | TODO |
--->
-
 ## Deployment
 
 The site is a static build deployed to GitHub Pages.
@@ -155,4 +147,10 @@ Update the status column as items move to *In progress* or *Done*.
 
 Personal portofolio, shared for educational purposes. Feel free to take inspiration from it, but please do not copy the content or design as your own.
 
-<p align="center">Built with React and Vite by <strong>Toriq</strong></p>
+<p align="center">
+  <img src="docs/Brand.png" width="320" alt="Brand Toriq Habil Fadhila" />
+</p>
+
+<p align="center">
+  Built with React and Vite by <strong>Toriq Habil Fadhila</strong>
+</p>

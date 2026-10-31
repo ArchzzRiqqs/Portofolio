@@ -1,33 +1,61 @@
-# Toriq Habil Fadhila — Personal Portfolio
+<div align="center">
 
-A personal portfolio built with React and Vite. It presents my projects, technical skills, and background as a Business Information Systems student.
+<img src="docs/banner.svg" width="100%" alt="Toriq Habil Fadhila - Personal Portfolio" />
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![ESLint](https://img.shields.io/badge/ESLint-configured-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org/)
-[![Live](https://img.shields.io/badge/Live-GitHub%20Pages-222222?style=flat-square&logo=github)](https://toriqqhabilfadhilaa.github.io/)
+<br />
 
-**[Live site](https://toriqqhabilfadhilaa.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/toriqhabilfadhila21/)**
+[![React](https://img.shields.io/badge/React-19-24283b?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-24283b?style=flat-square&logo=vite&logoColor=646CFF)](https://vite.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-24283b?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![ESLint](https://img.shields.io/badge/ESLint-configured-24283b?style=flat-square&logo=eslint&logoColor=4B32C3)](https://eslint.org/)
+[![Live](https://img.shields.io/badge/Live-GitHub%20Pages-7aa2f7?style=flat-square&logo=github&logoColor=1a1b27)](https://toriqqhabilfadhilaa.github.io/)
 
-<!-- Add a screenshot once available:
-![Portfolio preview](public/media/preview.png)
+[**Live site**](https://toriqqhabilfadhilaa.github.io/) ·
+[**LinkedIn**](https://www.linkedin.com/in/toriqhabilfadhila21/) ·
+[**Getting started**](#getting-started) ·
+[**Architecture**](#architecture)
+
+</div>
+
+<!-- Add a real screenshot, then uncomment:
+<p align="center">
+  <img src="docs/preview.png" width="90%" alt="Portfolio preview" />
+</p>
 -->
 
 ## Overview
 
-The site combines software development with a business-systems perspective. Each project is presented as a problem, a solution, and the value it was meant to deliver, rather than only a list of technologies.
+A personal portfolio built with React and Vite. It combines software development with a business-systems perspective: each project is presented as a problem, a solution, and the value it was meant to deliver, not only a list of technologies.
 
 Focus areas: system analysis and design, business process modeling, database design and SQL, web application development, and business analytics.
 
 ## Features
 
-- **Single-page layout** with Hero, About, Skills, Projects, Journey, and Contact sections
-- **Dark and light theme** via design tokens, switchable from the header
-- **Active section tracking** in the navigation while scrolling
-- **Scroll-triggered reveals** that respect `prefers-reduced-motion`
-- **Project reels**: short rendered clips of each project, played in a custom player
-- **Responsive** across desktop, tablet, and mobile
+| Feature | Details |
+| --- | --- |
+| Single-page layout | Hero, About, Skills, Projects, Journey, Contact |
+| Dark and light theme | Driven by design tokens, switchable from the header |
+| Active section tracking | Navigation highlights the section in view |
+| Scroll reveals | Elements animate in once, and respect `prefers-reduced-motion` |
+| Project reels | Short rendered clips of each project in a custom player |
+| Responsive | Desktop, tablet, and mobile |
+
+## Architecture
+
+Content is kept separate from components, and project text is shared between the site and the reel renderer so they never drift apart.
+
+```mermaid
+flowchart LR
+    P["projects.json"] --> R["Remotion<br/>motion/"]
+    P --> S["Projects section"]
+    R -->|render| M["public/media<br/>webm + poster"]
+    M --> RP["ReelPlayer"]
+    S --> RP
+    D["data.js"] --> C["Components"]
+    C --> B["Vite build<br/>dist/"]
+    RP --> B
+    B --> G["GitHub Pages"]
+```
 
 ## Tech Stack
 
@@ -35,7 +63,7 @@ Focus areas: system analysis and design, business process modeling, database des
 | --- | --- |
 | UI | React 19, JavaScript (ES6+), HTML5, CSS3 |
 | Build | Vite 7 |
-| Motion | CSS transitions, Remotion (project reels only, not bundled into the app) |
+| Motion | CSS transitions in the app, Remotion for reels only (not bundled into the app) |
 | Quality | ESLint |
 | Workflow | Git, GitHub, GitHub Pages, VS Code |
 
@@ -44,8 +72,8 @@ Focus areas: system analysis and design, business process modeling, database des
 Requires Node.js 20.19+ (the minimum for Vite 7).
 
 ```bash
-git clone https://github.com/ToriqqHabilFadhilaa/MyPortofolio.git
-cd MyPortofolio
+git clone https://github.com/HiToriqq/Portofolio.git
+cd Portofolio
 npm install
 npm run dev
 ```
@@ -66,7 +94,8 @@ Before pushing, run `npm run lint` and `npm run build`.
 ## Project Structure
 
 ```text
-MyPortofolio/
+Portofolio/
+├── docs/                 Banner and preview images used by this README
 ├── public/
 │   └── media/            Rendered reels (webm) and posters
 ├── src/
@@ -83,13 +112,13 @@ MyPortofolio/
 └── package.json
 ```
 
-Content lives in `src/content/`, so text and project details can change without touching components.
+Text and project details live in `src/content/`, so they can change without touching components.
 
 ## Motion
 
-In-app animation is plain CSS. Tokens in `tokens.css` define one easing curve, one travel distance, and three durations, so every transition feels consistent. All of it is disabled when the user prefers reduced motion.
+In-app animation is plain CSS. `tokens.css` defines one easing curve, one travel distance, and three durations, so every transition feels consistent. All of it is disabled when the user prefers reduced motion.
 
-Remotion is used only to render the project reels. Its output goes to `public/media/`, and `projects.json` is shared so the reel text and the site text never drift apart.
+Remotion only renders the project reels. Its output goes to `public/media/`, and nothing from it is bundled into the app.
 
 <!--
 ## Featured Projects
@@ -107,27 +136,29 @@ The site is a static build deployed to GitHub Pages.
 npm run build
 ```
 
-Publish the contents of `dist/`. If the site is served from a project repository (for example `user.github.io/MyPortofolio`), set `base: '/MyPortofolio/'` in `vite.config.js`. A user site served from the domain root needs no `base`.
+Publish the contents of `dist/`. If the site is served from a project repository (for example `user.github.io/Portofolio`), set `base: '/Portofolio/'` in `vite.config.js`. A user site served from the domain root needs no `base`.
 
 ## Roadmap
 
-- [ ] Detailed project pages
-- [ ] Project filtering
-- [ ] Downloadable CV
-- [ ] SEO and Open Graph metadata
-- [ ] Accessibility audit
-- [ ] Image optimization
+| Item | Status |
+| --- | --- |
+| Detailed project pages | Planned |
+| Project filtering | Planned |
+| Downloadable CV | Planned |
+| SEO and Open Graph metadata | Planned |
+| Accessibility audit | Planned |
+| Image optimization | Planned |
+
+Update the status column as items move to *In progress* or *Done*.
 
 ## Contact
 
 - Portfolio: [toriqqhabilfadhilaa.github.io](https://toriqqhabilfadhilaa.github.io/)
-- Source: [github.com/ToriqqHabilFadhilaa/MyPortofolio](https://github.com/ToriqqHabilFadhilaa/MyPortofolio)
+- Source: [github.com/HiToriqq/Portofolio](https://github.com/HiToriqq/Portofolio)
 - LinkedIn: [toriqhabilfadhila21](https://www.linkedin.com/in/toriqhabilfadhila21/)
 
 ## License
 
 Personal portfolio, shared for educational purposes. Feel free to take inspiration from it, but please do not copy the content or design as your own.
-
----
 
 <p align="center">Built with React and Vite by <strong>Toriq</strong></p>

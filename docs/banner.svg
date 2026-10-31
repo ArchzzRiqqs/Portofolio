@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t">
+    <title id="t">Toriq Habil Fadhila - Personal Portfolio</title>
+    <defs>
+        <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#2f334d"/>
+        </pattern>
+    </defs>
+    <rect width="1200" height="320" fill="#1a1b27"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+
+    <text x="64" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#7aa2f7">PERSONAL PORTFOLIO</text>
+    <text x="64" y="152" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#c0caf5">Toriq Habil Fadhila</text>
+    <text x="64" y="192" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#a9b1d6">Business Information Systems student · Software developer</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c0caf5" text-anchor="middle">
+        <rect x="64" y="226" width="76" height="32" rx="6" fill="#24283b" stroke="#414868"/>
+        <text x="102" y="247">React</text>
+        <rect x="152" y="226" width="64" height="32" rx="6" fill="#24283b" stroke="#414868"/>
+        <text x="184" y="247">Vite</text>
+        <rect x="228" y="226" width="112" height="32" rx="6" fill="#24283b" stroke="#414868"/>
+        <text x="284" y="247">JavaScript</text>
+        <rect x="352" y="226" width="60" height="32" rx="6" fill="#24283b" stroke="#414868"/>
+        <text x="382" y="247">SQL</text>
+        <rect x="424" y="226" width="100" height="32" rx="6" fill="#24283b" stroke="#414868"/>
+        <text x="474" y="247">Remotion</text>
+    </g>
+
+    <rect x="760" y="56" width="380" height="208" rx="12" fill="#24283b" stroke="#414868"/>
+    <circle cx="784" cy="80" r="5" fill="#f7768e"/>
+    <circle cx="804" cy="80" r="5" fill="#e0af68"/>
+    <circle cx="824" cy="80" r="5" fill="#9ece6a"/>
+    <line x1="760" y1="100" x2="1140" y2="100" stroke="#414868"/>
+    <circle cx="808" cy="140" r="24" fill="#7aa2f7"/>
+    <rect x="848" y="124" width="170" height="12" rx="6" fill="#c0caf5"/>
+    <rect x="848" y="146" width="116" height="9" rx="4" fill="#565f89"/>
+    <g fill="#1a1b27" stroke="#414868">
+        <rect x="784" y="190" width="100" height="56" rx="8"/>
+        <rect x="896" y="190" width="100" height="56" rx="8"/>
+        <rect x="1008" y="190" width="100" height="56" rx="8"/>
+    </g>
+    <rect x="796" y="204" width="56" height="6" rx="3" fill="#7aa2f7"/>
+    <rect x="796" y="220" width="76" height="5" rx="2" fill="#565f89"/>
+    <rect x="908" y="204" width="44" height="6" rx="3" fill="#7aa2f7"/>
+    <rect x="908" y="220" width="70" height="5" rx="2" fill="#565f89"/>
+    <rect x="1020" y="204" width="64" height="6" rx="3" fill="#7aa2f7"/>
+    <rect x="1020" y="220" width="60" height="5" rx="2" fill="#565f89"/>
+</svg>

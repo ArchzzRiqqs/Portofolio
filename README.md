@@ -10,7 +10,7 @@
 [![ESLint](https://img.shields.io/badge/ESLint-configured-24283b?style=flat-square&logo=eslint&logoColor=4B32C3)](https://eslint.org/)
 [![Live](https://img.shields.io/badge/Live-GitHub%20Pages-7aa2f7?style=flat-square&logo=github&logoColor=1a1b27)](https://toriqqhabilfadhilaa.github.io/)
 
-[**Live site**](https://hitoriqq.github.io/Portofolio/) ·
+[**Live site**](https://archzzriqqs.github.io/Portofolio/) ·
 [**LinkedIn**](https://www.linkedin.com/in/toriqhabilfadhila21/) ·
 [**Getting started**](#getting-started) ·
 [**Architecture**](#architecture)
@@ -66,7 +66,7 @@ flowchart LR
 Requires Node.js 20.19+ (the minimum for Vite 7).
 
 ```bash
-git clone https://github.com/HiToriqq/Portofolio.git
+git clone https://github.com/ArchzzRiqqs/Portofolio.git
 cd Portofolio
 npm install
 npm run dev
@@ -139,8 +139,8 @@ Update the status column as items move to *In progress* or *Done*.
 
 ## Contact
 
-- Portofolio: [hitoriqq.github.io](https://hitoriqq.github.io/Portofolio/)
-- Source: [github.com/HiToriqq/Portofolio](https://github.com/HiToriqq/Portofolio)
+- Portofolio: [archzzriqqs.github.io](https://archzzriqqs.github.io/Portofolio/)
+- Source: [github.com/ArchzzRiqqs/Portofolio](https://github.com/ArchzzRiqqs/Portofolio)
 - LinkedIn: [toriqhabilfadhila21](https://www.linkedin.com/in/toriqhabilfadhila21/)
 
 ## License
